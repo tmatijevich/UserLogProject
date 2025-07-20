@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="IA32.Hardware.hw" LastWriteTime="07/20/2025 16:39:05" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20CP1685" Type="X20CP1685" X="100" Y="100" />
+  </Modules>
+  <Links />
+  <InfoElements />
+</BR.AS.HardwareTopology>

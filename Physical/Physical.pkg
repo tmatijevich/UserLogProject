@@ -4,5 +4,6 @@
   <Objects>
     <Object Type="Configuration">UnitTest</Object>
     <Object Type="Configuration">ARM</Object>
+    <Object Type="Configuration">IA32</Object>
   </Objects>
 </Physical>

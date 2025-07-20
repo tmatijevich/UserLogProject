@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Cpu xmlns="http://br-automation.co.at/AS/Cpu">
+  <Objects>
+    <Object Type="File" Description="Software configuration">Cpu.sw</Object>
+    <Object Type="Package">TextSystem</Object>
+  </Objects>
+  <Configuration ModuleId="X20CP1685">
+    <AutomationRuntime Version="6.3.4" />
+    <Build GccVersion="11.3.0" IgnoredObjectNamesForBuildWarnings=".git" />
+    <DefaultTargetMemory Tasks="UserROM" />
+    <Vc FirmwareVersion="" />
+  </Configuration>
+</Cpu>
