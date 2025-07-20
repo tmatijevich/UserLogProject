@@ -4,7 +4,6 @@
   <Objects>
     <Object Type="File" Description="Software configuration">Cpu.sw</Object>
     <Object Type="Package">TextSystem</Object>
-    <Object Type="Package">Connectivity</Object>
   </Objects>
   <Configuration ModuleId="X20CP0484">
     <AutomationRuntime Version="6.3.4" />
