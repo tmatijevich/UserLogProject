@@ -9,6 +9,7 @@
     <AutomationRuntime Version="6.3.4" />
     <Build GccVersion="11.3.0" IgnoredObjectNamesForBuildWarnings=".git" />
     <DefaultTargetMemory Tasks="UserROM" />
+    <Transfer SavedOfflineInstallationFolder="" SavedPipDestinationFolder="" SavedRuntimeUtilityCenterPackagePath="" />
     <Vc FirmwareVersion="" />
   </Configuration>
 </Cpu>
