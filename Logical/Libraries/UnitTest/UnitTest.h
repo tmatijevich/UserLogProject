@@ -34,6 +34,7 @@ extern "C"
 #include "include/HelperMacro.h"
 #include "include/utRunner.h"
 
+
 /* function is a test case */
 #define _TEST 			static testStatusEnum
 
@@ -215,9 +216,10 @@ void UNTITTEST_TESTSET_HANDLER();
 
 
 
-#if (__GNUC__ != 6) || (__GNUC_MINOR__ != 3) || (__GNUC_PATCHLEVEL__ != 0)
-#error UnitTest is compiled with GCC version 6.3.0. To use UnitTest switch GCC version to 6.3.0 or import a different solution package 
+#if (__GNUC__ != 11) || (__GNUC_MINOR__ != 3) || (__GNUC_PATCHLEVEL__ != 0)
+#error UnitTest is compiled with GCC version 11.3.0. To use UnitTest switch GCC version to 11.3.0 or import a different solution package 
 #endif
+
 
 
 #define UNIT_TEST_LIBRARY_VERSION  			"2.01.0"

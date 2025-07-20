@@ -1,6 +1,6 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
-/* UtWs 2.01.0 */
+/* UtWs 6.0.0 */
 
 #ifndef _UTWS_
 #define _UTWS_
@@ -9,7 +9,7 @@ extern "C"
 {
 #endif
 #ifndef _UtWs_VERSION
-#define _UtWs_VERSION 2.01.0
+#define _UtWs_VERSION 6.0.0
 #endif
 
 #include <bur/plctypes.h>
@@ -17,18 +17,19 @@ extern "C"
 #ifndef _BUR_PUBLIC
 #define _BUR_PUBLIC
 #endif
-#ifdef _SG4
+#ifdef _SG3
 		#include "astime.h"
 		#include "UtMgr.h"
 #endif
-#ifdef _SG3
+#ifdef _SG4
 		#include "astime.h"
 		#include "UtMgr.h"
 #endif
 #ifdef _SGC
 		#include "astime.h"
 		#include "UtMgr.h"
-#endif
+#endif
+
 
 /* Datatypes and datatypes of function blocks */
 typedef struct UtWsStatistics

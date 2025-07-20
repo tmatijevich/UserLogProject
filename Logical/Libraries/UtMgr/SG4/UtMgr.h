@@ -1,6 +1,6 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
-/* UtMgr 2.01.0 */
+/* UtMgr 6.0.0 */
 
 #ifndef _UTMGR_
 #define _UTMGR_
@@ -9,7 +9,7 @@ extern "C"
 {
 #endif
 #ifndef _UtMgr_VERSION
-#define _UtMgr_VERSION 2.01.0
+#define _UtMgr_VERSION 6.0.0
 #endif
 
 #include <bur/plctypes.h>
@@ -20,24 +20,6 @@ extern "C"
 #ifdef _SG4
 		#include "Runtime.h"
 #endif
-
-
-
-/* Constants */
-#ifdef _REPLACE_CONST
- #define utERR_GENERAL (-1057750784)
- #define utMgrERR_INVALID_PARAM (-1057750783)
- #define utMgrERR_TOO_MANY_TESTS (-1057750782)
-#else
- #ifndef _GLOBAL_CONST
-   #define _GLOBAL_CONST _WEAK const
- #endif
- _GLOBAL_CONST signed long utERR_GENERAL;
- _GLOBAL_CONST signed long utMgrERR_INVALID_PARAM;
- _GLOBAL_CONST signed long utMgrERR_TOO_MANY_TESTS;
-#endif
-
-
 
 
 /* Datatypes and datatypes of function blocks */
@@ -128,6 +110,20 @@ typedef struct UtMgrMonitor
 _BUR_PUBLIC void UtMgrTestSuite(struct UtMgrTestSuite* inst);
 _BUR_PUBLIC void UtMgrMonitor(struct UtMgrMonitor* inst);
 _BUR_PUBLIC signed long UtMgrTestRunnerRunTest(unsigned long TestSet);
+
+_BUR_PUBLIC unsigned long UtMgrHelperFtoa(double V, unsigned long Size, unsigned long String, unsigned long Len);
+
+
+/* Constants */
+#ifdef _REPLACE_CONST
+ #define utERR_GENERAL (-1057750784)
+ #define utMgrERR_INVALID_PARAM (-1057750783)
+ #define utMgrERR_TOO_MANY_TESTS (-1057750782)
+#else
+ _GLOBAL_CONST signed long utERR_GENERAL;
+ _GLOBAL_CONST signed long utMgrERR_INVALID_PARAM;
+ _GLOBAL_CONST signed long utMgrERR_TOO_MANY_TESTS;
+#endif
 
 
 
