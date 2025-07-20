@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.11.6.26 FileVersion="4.9"?>
+<?AutomationStudio Version=4.12.5.95 FileVersion="4.9"?>
 <Hardware xmlns="http://br-automation.co.at/AS/Hardware">
   <Module Name="X20BB67" Type="X20BB67" Version="1.2.0.0" />
-  <Module Name="X20CP0484" Type="X20CP0484" Version="1.5.0.0">
+  <Module Name="X20CP0484" Type="X20CP0484" Version="1.6.0.0">
     <Connection Connector="SL" TargetModule="X20BB67" TargetConnector="SL1" />
     <Connector Name="IF2">
       <Parameter ID="ActivateDevice" Value="1" />
