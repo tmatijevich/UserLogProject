@@ -8,6 +8,7 @@
     <Parameter ID="FileDevicePath1" Value="USER_PATH" />
     <Parameter ID="ActivateFtpServer" Value="1" />
     <Parameter ID="ActivateWebServer" Value="1" />
+    <Parameter ID="WebServerProtocol" Value="1" />
     <Parameter ID="ActivateSdm" Value="1" />
   </Module>
 </Hardware>
