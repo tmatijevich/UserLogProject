@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.12.5.95 FileVersion="4.9"?>
+<?AutomationStudio WorkingVersion="6.3" FileVersion="4.9"?>
 <Hardware xmlns="http://br-automation.co.at/AS/Hardware">
-  <Module Name="X20BB67" Type="X20BB67" Version="1.2.0.0" />
-  <Module Name="X20CP0484" Type="X20CP0484" Version="1.6.0.0">
+  <Module Name="X20BB67" Type="X20BB67" Version="1.3.1.0" />
+  <Module Name="X20CP0484" Type="X20CP0484" Version="1.8.1.0">
     <Connection Connector="SL" TargetModule="X20BB67" TargetConnector="SL1" />
     <Connector Name="IF2">
       <Parameter ID="ActivateDevice" Value="1" />
@@ -29,8 +29,11 @@
     <Group ID="FileDevice1" />
     <Parameter ID="FileDeviceName1" Value="USER" />
     <Parameter ID="FileDevicePath1" Value="USER_PATH" />
+    <Parameter ID="ActivateFtpServer" Value="1" />
+    <Parameter ID="ActivateWebServer" Value="1" />
+    <Parameter ID="ActivateSdm" Value="1" />
   </Module>
-  <Module Name="X20PS9600" Type="X20PS9600" Version="1.6.0.0">
+  <Module Name="X20PS9600" Type="X20PS9600" Version="1.6.2.0">
     <Connection Connector="PS" TargetModule="X20BB67" TargetConnector="PS1" />
     <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
   </Module>
